@@ -1,0 +1,21 @@
+.cardsrow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+  }
+  .cardscolumn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    max-height: 100vh;
+  }
+  .image {
+    padding: 5px;
+    margin: 10px;
+    border: 6px solid #000;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.3); 
+    max-width: 24vw;
+  }
