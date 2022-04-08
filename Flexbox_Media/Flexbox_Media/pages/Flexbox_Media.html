@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Align items stretch</title>
+    <style>
+  .media {
+    display: flex;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    margin: auto;
+    border-radius: 3px;
+    max-width: 30em;
+  }
+  .details {
+    padding: 2em;
+    border-radius: 3px;
+    flex: 1;
+  }
+  .image {
+    
+    width: 100px;
+    height: 100px;   
+  }
+  .media1 {
+    background: #F6F3EB;
+    max-width: 30em;
+    margin: auto;
+  }
+  .block{
+    display: flex;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    border-radius: 3px;
+    flex-direction: row;
+  }
+  .block1{
+    display: flex;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    margin-left: 80px;
+    border-radius: 3px;
+    flex-direction: row;
+  }
+  .emoji{
+    margin-right: .2em;
+    margin-top: .6em;
+    font-size: 4em;
+  }
+  .heading{
+    font-size: large;
+  }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top:5%;">Media object - Left image</h1>
+    <div class="media">
+        <img class="image" src="../asserts/8s.jpg" alt="Sample photo" style="margin: 40px;">
+        <div class="details">
+          <h3 class="heading">Organically Synthesized</h3>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        </div>
+    </div>
+    <h1 style="text-align: center; margin-top:5%;">Media object - right image</h1>
+    <div class="media">
+        <div class="details">
+          <h3 class="heading">Organically Synthesized</h3>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        </div>
+        <img class="image" src="../asserts/8s.jpg" alt="Sample photo" style="margin: 40px;">
+    </div>
+    <h1 style="text-align: center; margin-top:5%;">Media object - nested image</h1>
+    <div class="media1">
+      <div class="block">
+        <img class="image" src="../asserts/8s.jpg" alt="Sample photo" style="margin: 35px;">
+        <div class="details">
+          <h3 class="heading">Organically Synthesized</h3>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        </div>
+      </div>
+        <div class="block1">
+          <img class="image" src="../asserts/9s.jpg" alt="Sample photo" style="margin: 25px;">
+          <div class="details">
+            <h3 class="heading">Eco Processing</h3>
+            <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
+          </div>
+ 
+        </div>
+    </div>
+    <h1 style="text-align: center; margin-top:5%;">Media object - Unicode emoji</h1>
+    <div class="media">
+      <div class="emoji">&#x1F60E;</div>
+        <div class="details">
+          <h3 class="heading">Organically Synthesized</h3>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        </div>
+    </div>
+    <h1 style="text-align: center; margin-top:5%;">Media object - HTML entity</h1>
+    <div class="media">
+      <div class="emoji">&phone;</div>
+        <div class="details">
+          <h3 class="heading">Organically Synthesized</h3>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        </div>
+    </div>
+    
+</body>
+
+</html>
